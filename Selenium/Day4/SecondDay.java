@@ -38,10 +38,8 @@ public class SecondDay {
         // 9. Wait for 2 seconds
         Thread.sleep(2000);
 
-        // 10. Find the Roll Number field by its 'name' attribute and click it (to focus) and enter rollnumber
-        WebElement RollNumValue = driver.findElement(By.name("roll_no"));
-        RollNumValue.click();
-        RollNumValue.sendKeys("24A95A6109");
+        // 10. Find the Roll Number field by its 'name' attribute
+        driver.findElement(By.name("roll_no"));
 
         // 11. Wait for 10 seconds
         Thread.sleep(10000);
