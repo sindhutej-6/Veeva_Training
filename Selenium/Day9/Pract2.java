@@ -45,6 +45,7 @@ public class Pract2 {
 
     }
     public void thirdtask(){
+        //isEnabled();
         WebDriver driver1 = new ChromeDriver();
         driver1.get("https://qapracticehub.com");
         driver1.findElement(By.linkText("Inputs")).click();
